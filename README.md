@@ -44,3 +44,8 @@ adb devices -l
 ```bash
 npx wdio run ./wdio.conf.js --spec ./test/specs/login.e2e.js
 ```
+
+### How to handel element locator using wdio
+
+- `~` for find element locator use `accessibility ID`
+- `//tag[@key='value']` for find element locator use `XPATH` and more no need prefix
