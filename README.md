@@ -1,8 +1,7 @@
 # WDIO Appium
 
 ## Test Run
-
-🎥 [Demo](docs/run-test.mov)
+![Demo](docs/run-test.gif)
 
 ## Initiate wdio with appium for Android Testing
 
