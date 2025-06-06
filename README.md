@@ -2,10 +2,7 @@
 
 ## Test Run
 
-<video width="600" controls>
-  <source src="docs/run-test.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+🎥 [Demo](docs/run-test.mov)
 
 ## Initiate wdio with appium for Android Testing
 
