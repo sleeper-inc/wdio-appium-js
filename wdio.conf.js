@@ -58,8 +58,11 @@ exports.config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:chromedriverExecutable': path.join(process.cwd(), 'chromedriver-mobile', 'chromedriver'),
+        // Only use for mobile testing with Chrome
+        // browserName: 'Chrome',
+        // 'appium:chromedriverExecutable': path.join(process.cwd(), 'chromedriver-mobile', 'chromedriver'),
+        'appium:appPackage': 'com.swaglabsmobileapp',
+        'appium:appActivity': 'com.swaglabsmobileapp.SplashActivity',
         'appium:deviceName': 'nightwatch-android-11',
         'appium:platformVersion': '11.0',
         'appium:automationName': 'UiAutomator2',
